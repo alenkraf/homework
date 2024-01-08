@@ -28,8 +28,6 @@ print(f"В людських роках, собаці приблизно {dog1.hu
 
 
 #Task3
-CHANNELS = ["BBC", "Discovery", "TV1000"]
-
 class TVController:
     def __init__(self, channels):
         self.channels = channels
@@ -64,6 +62,8 @@ class TVController:
             return "Yes" if 1 <= n_or_name <= len(self.channels) else "No"
         elif isinstance(n_or_name, str):
             return "Yes" if n_or_name in self.channels else "No"
+
+CHANNELS = ["BBC", "Discovery", "TV1000"]
 
 controller = TVController(CHANNELS)
 

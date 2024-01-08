@@ -1,6 +1,6 @@
 from module import make_phonebook, add_record, find_record, delete_record, update_record
 
-my_phonebook_name = "10/phonebook.json"
+my_phonebook_name = "lesson10/phonebook.json"
 
 def phonebook_start(file_name):
     make_phonebook(phonebook_name=file_name)
