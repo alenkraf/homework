@@ -1,11 +1,9 @@
 import asyncio
 
 async def calculate_fibonacci(n):
-    # Implement Fibonacci calculation here
     pass
 
 async def calculate_factorial(n):
-    # Implement factorial calculation here
     pass
 
 async def calculate_square(n):
